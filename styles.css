@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: rgb(239, 203, 3);
+  height: 100vh;
+}
+
+.container {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 500px;
+  width: 300px;
+  font-size: 30px;
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  background-color: #5555558f;
+  border-radius: 50%;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
+p {
+  position: absolute;
+  top: 19%;
+  left: 36%;
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.219);
+}
+
+.footer {
+  width: 1000px;
+  height: 200px;
+  background: rgb(234, 65, 65);
+  position: fixed;
+  bottom: 0%;
+  left: -15%;
+  width: 1000px;
+  background-color: rgb(234, 84, 84);
+  transform: skewX(60deg);
+}
+.footer-two {
+  width: 1000px;
+  height: 200px;
+  bottom: 0%;
+  background-color: rgb(234, 84, 84);
+  position: fixed;
+  bottom: 0;
+  right: -15%;
+  transform: skewX(-60deg);
+}
